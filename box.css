@@ -1,0 +1,18 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: darkblue;
+    margin: 10px;
+}
+
+.box:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
