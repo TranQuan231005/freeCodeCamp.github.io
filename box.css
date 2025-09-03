@@ -16,3 +16,12 @@
     background-color: deepskyblue;
     cursor: pointer;
 }
+
+.box:active {
+    background-color: dodgerblue;
+    transform: scale(0.95);
+}
+
+.box:focus {
+    outline: 3px solid orange;
+}
